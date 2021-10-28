@@ -1,0 +1,7 @@
+/* 외부 스타일 ->css에서 사용시 주석 사용법*/
+h1{color:rgb(0, 255, 0);}
+h2{color:blue;}
+p{
+    font-family: "바탕체";
+    line-height: 2; /* 줄간격, 숫자는 글자크기 곱(x)한 수 */
+}
