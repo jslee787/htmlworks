@@ -1,0 +1,13 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+fieldset{margin: 15px;}
+h1{text-align: center;}
+legend{font-weight: bold;}
+ul{list-style: none;}
+ul li{margin: 15px;}
+
+/* 배송 정보 스타일 */
+#shipping ul li label{width: 200px; float: left;}
+.button{margin-left: 15px;}
