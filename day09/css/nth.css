@@ -1,0 +1,12 @@
+.container{width: 960px; margin: 0 auto;}
+.content{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+.content :first-child{color: blue;} /*첫번째 자식 요소*/
+.content :nth-child(3){background-color: #ffff00;} /*세번째 자식 요소*/
+.content p:nth-of-type(3){background-color: #00ff00;} /* p 태그 중 3번째 위치*/
+.content :last-child{color: rgb(201, 109, 125);} /*마지막 자식 요소*/
