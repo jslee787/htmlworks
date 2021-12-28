@@ -1,0 +1,17 @@
+/* 모바일 기준 */
+
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0 auto; background: #f00;}
+header{height: 100px; border: 1px solid #fff; color:#fff; padding: 10px;}
+section{height: 600px; border: 1px solid #fff; color:#fff; padding: 10px;}
+footer{height: 100px; border: 1px solid #fff; color:#fff; padding: 10px;}    
+
+/* 태블릿 기준 */
+@media screen and (min-width:768px) {
+    #container{background: #00f;}
+}
+
+/* pc 기준 */
+@media screen and (min-width:1024px) {
+    #container{background: #0f0;}
+}
